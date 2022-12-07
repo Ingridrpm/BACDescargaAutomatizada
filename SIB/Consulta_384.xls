@@ -1,0 +1,188 @@
+<HTML><BODY><TABLE border="1" cellspacing="0" cellpadding="0"><TR  bgcolor="#CCCC99"    style="font:Garamond:medium"><TD ALIGN="left"><h3>Indicadores Financieros de Instituciones Bancarias</TD></TR><TR  bgcolor="#CCCC99"    style="font:Garamond:medium"><TD ALIGN="left">SISTEMA BANCARIO</TD></TR><TR  bgcolor="#CCCC99"    style="font:Garamond:medium"><TD ALIGN="left">Cifras en miles de quetzales</h3></TD></TR></TABLE><TABLE border="1" cellspacing="0" cellpadding="0"><TR  bgcolor="#FFFFCC"    style="font:Garamond:medium"><TD ALIGN="center"><STRONG><b>CONCEPTO</b></STRONG></TD><TD ALIGN="center"><STRONG><b>31/10/2022</b></STRONG></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">LIQUIDEZ</TD><TD ALIGN="right"></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">   Liquidez inmediata (LI)</TD><TD ALIGN="right">17.11%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">   Liquidez mediata (LM)</TD><TD ALIGN="right">47.19%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">SOLVENCIA</TD><TD ALIGN="right"></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">  Patrimonio con relación a activos (PA)</TD><TD ALIGN="right">9.32%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">  Patrimonio con relación a cartera de créditos (PCC)</TD><TD ALIGN="right">17.45%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">  Patrimonio con relación a las captaciones (PCA)</TD><TD ALIGN="right">12.10%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">  Adecuación de capital (AC)</TD><TD ALIGN="right">16.26%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">  Calce de operaciones ME con relación al patrimonio computable (COME)</TD><TD ALIGN="right">9.20%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">RENTABILIDAD</TD><TD ALIGN="right"></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">  Rendimiento sobre patrimonio (ROE)</TD><TD ALIGN="right">23.18%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">  Rendimiento sobre activos (ROA)</TD><TD ALIGN="right">2.16%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">  Eficiencia sobre activos (EA)</TD><TD ALIGN="right">3.21%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">  Eficiencia (EF)</TD><TD ALIGN="right">61.07%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">CALIDAD DE ACTIVOS</TD><TD ALIGN="right"></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">  Cartera de créditos vencida con relación a cartera de créditos bruta (CVC)</TD><TD ALIGN="right">1.40%</TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left">  Cobertura de cartera de créditos en riesgo (CCR)</TD><TD ALIGN="right">244.58%</TD></TR></TABLE><TABLE border="1" cellspacing="0" cellpadding="0"><TR><TD ALIGN="left"><b> </b></TD></TR></TABLE></BR></BR><TABLE border="1" cellspacing="0" cellpadding="0"><TR  bgcolor="#FFFFCC"    style="font:Garamond:medium"><TD ALIGN="center"><STRONG><b>AREA</b></STRONG></TD><TD ALIGN="center"><STRONG><b>INDICADOR(a)</b></STRONG></TD><TD ALIGN="center"><STRONG><b>FÓRMULA</b></STRONG></TD><TD ALIGN="center"><STRONG><b>INTERPRETACIÓN</b></STRONG></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b>Liquidez</b></TD><TD ALIGN="center">Liquidez inmediata (LI)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>LI=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center">
+<span>Disponibilidades (b)</span></td>
+</tr>
+<tr>
+	<td>
+<p align="center" style="text-align:center">
+<span>Obligaciones depositarias (c) + Obligaciones financieras (c)</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la proporción de recursos de inmediata disponibilidad con que la entidad cuenta para atender sus obligaciones depositarias y obligaciones financieras.</p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b> </b></TD><TD ALIGN="center">Liquidez mediata (LM)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>LM=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center">
+<span>Disponibilidades (b) + Inversiones (b) (d)</span></td>
+</tr>
+<tr>
+	<td>
+<p align="center" style="text-align:center">
+<span>Obligaciones depositarias (c) + 
+Obligaciones financieras (c) + 
+Créditos obtenidos  (c) + 
+Cuentas por pagar</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la proporción de recursos de inmediata disponibilidad e inversiones de fácil realización con que la entidad cuenta para atender sus obligaciones depositarias, obligaciones financieras y otras obligaciones.</p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b>Solvencia</b></TD><TD ALIGN="center">Patrimonio con relación a activos (PA)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>PA=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center"><span>Capital contable</span></td>
+</tr>
+<tr>
+	<td><p align="center" style="text-align:center"><span>Activo neto</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la proporción del activo que se encuentra financiado con el patrimonio de los accionistas de la entidad.</p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b> </b></TD><TD ALIGN="center">Patrimonio con relación a cartera de créditos (PCC)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>PCC=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center"><span>Capital contable</span></td>
+</tr>
+<tr>
+	<td><p align="center" style="text-align:center"><span>Cartera de créditos neta (b)</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la proporción de cartera de créditos que se encuentra financiada con el patrimonio de los accionistas de la entidad.</p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b> </b></TD><TD ALIGN="center">Patrimonio con relación a las captaciones (PCA)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>PCA=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center"><span>Capital contable</span></td>
+</tr>
+<tr>
+	<td><p align="center" style="text-align:center"><span>Obligaciones depositarias (c) + Obligaciones financieras (c)</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la proporción de las obligaciones depositarias y obligaciones financieras que se encuentran respaldadas con el patrimonio de los accionistas de la entidad.</p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b> </b></TD><TD ALIGN="center">Adecuación de capital (AC)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>AC=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center"><span>Patrimonio computable (-) Gastos diferidos (e) (-) Inversiones en deuda subordinada (k)</span></td>
+</tr>
+<tr>
+	<td><p align="center" style="text-align:center"><span>Sumatoria de los activos y contingencias ponderados por riesgo</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la proporción de patrimonio con que cuenta la entidad para hacer frente a los riesgos y contingencias a que está expuesta.</p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b> </b></TD><TD ALIGN="center">Calce de operaciones en moneda extranjera con relación al patrimonio computable (COME)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>COME=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center"><span>Activos netos en moneda extranjera (-) Obligaciones, compromisos futuros y contingencias en moneda extranjera</span></td>
+</tr>
+<tr>
+	<td><p align="center" style="text-align:center"><span>Patrimonio computable</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la posición de calce de las operaciones en moneda extranjera de la entidad, respecto a su patrimonio computable.*</p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b>Rentabilidad</b></TD><TD ALIGN="center">Rendimiento sobre patrimonio (ROE**)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>ROE=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center"><span>Resultado del ejercicio (f)</span></td>
+</tr>
+<tr>
+	<td><p align="center" style="text-align:center"><span>Capital contable (g)</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la tasa de rendimiento anual generada por el patrimonio de los accionistas de la entidad.</p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b> </b></TD><TD ALIGN="center">Rendimiento sobre activos (ROA***)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>ROA=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center"><span>Resultado del ejercicio (f)</span></td>
+</tr>
+<tr>
+	<td><p align="center" style="text-align:center"><span>Activo neto (h)</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la tasa de rendimiento anual generada por el total del activo de la entidad.</p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b> </b></TD><TD ALIGN="center">Eficiencia sobre activos (EA)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>EA=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center"><span>Gastos de administración (i)</span></td>
+</tr>
+<tr>
+	<td><p align="center" style="text-align:center"><span>Activo neto (h)</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la proporción del gasto administrativo anual de la entidad respecto a su activo.</p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b> </b></TD><TD ALIGN="center">Eficiencia (EF)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>EF=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center"><span>Gastos de administración (i)</span></td>
+</tr>
+<tr>
+	<td><p align="center" style="text-align:center"><span>Margen operacional bruto (j)</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la proporción en que se distribuye el margen operacional para cubrir gastos administrativos. </p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b>Calidad de activos</b></TD><TD ALIGN="center">Cartera de créditos vencida con relación a cartera de créditos bruta (CVC)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>CVC=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center"><span>Cartera de créditos vencida</span></td>
+</tr>
+<tr>
+	<td><p align="center" style="text-align:center"><span>Cartera de créditos bruta (b)</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la proporción de la cartera de créditos que se encuentra vencida.</p></TD></TR><TR  bgcolor="#FFFFFF"    style="font:Garamond:medium"><TD ALIGN="left"><b> </b></TD><TD ALIGN="center">Cobertura de cartera de créditos en riesgo (CCR)</TD><TD ALIGN="center"><table border="0" cellspacing="0" cellpadding="0" >
+<tr>
+	<td rowspan="2"><p style="vertical-align:justify" ><span>CCR=</span></td>
+	<td style=" border-bottom: 1.0pt solid windowtext;"><p align="center" style="text-align:center"><span>Estimaciones por valuación para cartera de créditos</span></td>
+</tr>
+<tr>
+	<td><p align="center" style="text-align:center"><span>Cartera de créditos vencida</span></td>
+</tr>
+</table></TD><TD ALIGN="center"><p style= "text-align: justify">Representa la proporción de la cartera de créditos vencida que está cubierta con provisiones.</p></TD></TR></TABLE><TABLE border="1" cellspacing="0" cellpadding="0"><TR><TD ALIGN="left"><b>
+<TABLE width="1000" border="0" cellspacing="1" cellpadding="5">
+<TR>
+<TD><b>(a)</b></TD>
+<TD>El indicador debe reflejarse en formato de porcentaje con dos dígitos decimales.</TD>
+</TR>
+
+<TR>
+<TD><b>(b)</b></TD>
+<TD>Cartera de créditos neta: Cartera total menos productos financieros por cobrar y menos estimaciones por valuación de cartera de créditos.</TD>
+</TR>
+
+<TR>
+<TD><b>(c)</b></TD>
+<TD>Debe incluir los gastos financieros por pagar.</TD>
+</TR>
+
+<TR>
+<TD><b>(d)</b></TD>
+<TD>No debe incluir Inversiones Permanentes, Inversiones en Deuda Subordinada, Otras Inversiones y debe deducirse las estimaciones por valuación de inversiones.</TD>
+</TR>
+
+<TR>
+<TD><b>(e)</b></TD>
+<TD>Corresponde a la sumatoria de los gastos diferidos, según artículo 2, inciso b), y artículo 10 de la Resolución JM-46-2004.</TD>
+</TR>
+
+<TR>
+<TD><b>(f)</b></TD>
+<TD>Sumatoria del resultado mensual antes de impuestos (cálculos con base en los últimos doce meses).</TD>
+</TR>
+
+<TR>
+<TD><b>(g)</b></TD>
+<TD>Promedio del capital contable (cálculos con base en los últimos doce meses).</TD>
+</TR>
+
+<TR>
+<TD><b>(h)</b></TD>
+<TD>Promedio del activo neto (cálculos con base en los últimos doce meses).</TD>
+</TR>
+
+<TR>
+<TD><b>(i)</b></TD>
+<TD>Sumatoria de los gastos de administración mensuales (cálculos con base en los últimos doce meses).</TD>
+</TR>
+
+<TR>
+<TD><b>(j)</b></TD>
+<TD>Sumatoria del margen operacional bruto mensual (cálculos con base en los últimos doce meses).</TD>
+</TR>
+
+<TR>
+<TD><b>(k)</b></TD>
+<TD>Inversiones autorizadas de conformidad con el Numeral 1 de la Resolución JM-53-2020.</TD>
+</TR>
+
+<TR>
+<TD><b>(*)</b></TD>
+<TD>Ver los límites establecidos en el artículo 2 de la Resolución JM-199-2007.</TD>
+</TR>
+
+<TR>
+<TD><b>(**)</b></TD>
+<TD>Return On Equity, ROE, por sus siglas en inglés.</TD>
+</TR>
+
+<TR>
+<TD><b>(***)</b></TD>
+<TD>Return On Assets, ROA, por sus siglas en inglés.</TD>
+</TR>
+
+</TABLE>
+</b></TD></TR></TABLE></BR></BR></BODY></HTML>

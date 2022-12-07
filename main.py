@@ -109,9 +109,9 @@ def banguat_descarga_excel(driver,site): #Op 0
 def banguat_descarga_img(driver,site):
     #body > div > img
     driver.get(site)
-    grafica = driver.find_element(By.XPATH, '/html/body/div/img')
+    grafica = driver.find_element(By.XPATH, '//*[@id="carga-htm"]')
     src = grafica.get_attribute('src')
-    urllib.request.urlretrieve(src, "Imagenes/Balanza Comercial - Comportamiento Semanal.png")
+    urllib.request.urlretrieve(src, "Balanza Comercial - Comportamiento Semanal.png")
     return True
 
 def banguat_descarga_html(driver,site,i):
