@@ -115,11 +115,15 @@ def banguat_descarga_img(driver,site):
     return True
 
 def banguat_descarga_html(driver,site,i):
-
+    driver.get(site)
+    div_ano = driver.find_element(By.XPATH, "/html/body/div[4]/span/b")
+    ano = div_ano.text 
     import pandas as pd
     try:
         table = pd.read_html(site)[0]
-        table.to_excel("data"+str(i)+".xlsx")
+        writer = pd.ExcelWriter("Exportaciones e importaciones.xlsx", engine='xlsxwriter')
+        table.to_excel(writer, sheet_name=ano.replace("AÑO ",""))
+        writer.save()
     except Exception:
         traceback.print_exc()
         return False
