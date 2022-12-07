@@ -101,14 +101,14 @@ def ExecuteETL():
     print('=============================')
 
 
-    #dat1 - Exportaciones e importaciones
+    #Exportaciones e importaciones
     
-    print('Parsing data1.xlsx')
+    print('Parsing Exportaciones e Importaciones.xlsx')
 
-    impExp = openpyxl.load_workbook("BANGUAT\data1.xlsx")
+    impExp = openpyxl.load_workbook("BANGUAT\Exportaciones e Importaciones.xlsx")
     producto = ""
     tipo = ""
-    año = "2022"
+    año = impExp.sheetnames[0]
     meses = []
     tipos = []
     reporte_nombre = "VALOR (CIF) DE LAS IMPORTACIONES Y VALOR (FOB) DE LAS EXPORTACIONE POR PRODUCTO"
