@@ -4,7 +4,7 @@ import locale
 from datetime import datetime as dt
 from dateutil.relativedelta import relativedelta
 import os
-import win32com.client as win32
+from xls2xlsx import XLS2XLSX
 import warnings
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -23,7 +23,6 @@ def isNumeric(valor):
             return False
 
 
-
 #===================================
 #**************BVNSA**************
 #===================================
@@ -31,20 +30,21 @@ def isNumeric(valor):
 #Convirtiendo archivos xls a xlsx
 
 def convertToXslx(file): 
-    print('Converting', file, 'to xlsx...')
-    excel = win32.gencache.EnsureDispatch('Excel.Application')
+    print('Reconfiguring', file, 'xlsx file...')
+
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    full_path = os.path.join(base_dir, 'BVNSA\\' + file + '.xlsx')
-    full_path_new = os.path.join(base_dir, 'BVNSA\\' + file + '_.xlsx')
+    full_path = os.path.join(base_dir, file)
+    new_full_path = os.path.join(base_dir, file[:-1])
 
-    if os.path.exists(full_path_new):
-        os.remove(full_path_new)
+    if os.path.exists(new_full_path):
+        os.remove(new_full_path)
 
-    wb = excel.Workbooks.Open(full_path)
-    wb.SaveAs(full_path_new, FileFormat = '51')
-    wb.Close()                               
-    excel.Application.Quit()
-    print('File converted:', full_path_new)
+    os.rename(full_path, full_path[:-1])
+
+    x2x = XLS2XLSX(file[:-1])
+    x2x.to_xlsx(file)
+    
+    print('File converted:', full_path)
 
 
 def generateExcel(df, file):
@@ -62,11 +62,11 @@ def generateExcel(df, file):
 
 def bolsa_valores_tabular(file):
 
-    convertToXslx(file)
+    #convertToXslx(file)
 
-    print('Parsing', file + '.xlsx')
+    print('Parsing', file)
 
-    bv = openpyxl.load_workbook("BVNSA\\" + file + "_.xlsx")
+    bv = openpyxl.load_workbook(file)
     sheet = bv.active
     
     df = pd.DataFrame()
@@ -93,16 +93,16 @@ def bolsa_valores_tabular(file):
 
     df.insert(0, 'fecha_reporte', fecha)
     
-    generateExcel(df, "BASES_DE_DATOS\BVNSA_" + reporte_nombre + ".xlsx")
+    generateExcel(df, "BASES_DE_DATOS\\BVNSA_" + reporte_nombre + ".xlsx")
 
 
 def bolsa_valores_tabular2(file):
 
-    #convertToXslx(file)
+    convertToXslx(file)
 
     print('Parsing', file + '.xlsx')
 
-    bv = openpyxl.load_workbook("BVNSA\\" + file + "_.xlsx")
+    bv = openpyxl.load_workbook("BVNSA\\" + file + ".xlsx")
     sheet = bv.active
     
     df = pd.DataFrame()
@@ -132,7 +132,7 @@ def bolsa_valores_tabular2(file):
 
     df.insert(0, 'fecha_reporte', fecha)
     
-    generateExcel(df, "BASES_DE_DATOS\BVNSA_" + reporte_nombre + ".xlsx")
+    generateExcel(df, "BASES_DE_DATOS\\BVNSA_" + reporte_nombre + ".xlsx")
 
 
 def ExecuteETL():
@@ -141,12 +141,13 @@ def ExecuteETL():
     print('*****Executing BVNSA ETL*****')
     print('=============================')
 
-    bolsa_valores_tabular('CurvaNss')
-    bolsa_valores_tabular('CurvaRendimiento')
-    bolsa_valores_tabular('Informe_Reportos_Privados')
-    bolsa_valores_tabular('Informe_Reportos_Publicos')
-    bolsa_valores_tabular('OperacionesSinedi')
-    bolsa_valores_tabular2('Informe Diario')
+    bolsa_valores_tabular('BVNSA\\CurvaNss.xlsx')
+    bolsa_valores_tabular('BVNSA\\CurvaRendimiento.xlsx')
+    bolsa_valores_tabular('BVNSA\\Informe_Reportos_Privados.xlsx')
+    bolsa_valores_tabular('BVNSA\\Informe_Reportos_Publicos.xlsx')
+    bolsa_valores_tabular('BVNSA\\Informe_Resumen_Reportos.xlsx')
+    bolsa_valores_tabular('BVNSA\\OperacionesSinedi.xlsx')
+    bolsa_valores_tabular2('BVNSA\\Informe Diario.xlsx')
 
     print('ETL for BVNSA files completed!')
 

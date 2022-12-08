@@ -105,7 +105,7 @@ def ExecuteETL():
     
     print('Parsing Exportaciones e Importaciones.xlsx')
 
-    impExp = openpyxl.load_workbook("BANGUAT\Exportaciones e Importaciones.xlsx")
+    impExp = openpyxl.load_workbook("BANGUAT\\Exportaciones e Importaciones.xlsx")
     producto = ""
     tipo = ""
     año = impExp.sheetnames[0]
@@ -153,7 +153,7 @@ def ExecuteETL():
 
     print('Parsing gra051.xlsx')
 
-    g51 = openpyxl.load_workbook("BANGUAT\gra051.xlsx")
+    g51 = openpyxl.load_workbook("BANGUAT\\gra051.xlsx")
     concepto = ""
     tipo_valor = ""
     sheet = g51.active
@@ -216,7 +216,7 @@ def ExecuteETL():
 
     print('Parsing gra052.xlsx')
 
-    g52 = openpyxl.load_workbook("BANGUAT\gra052.xlsx")
+    g52 = openpyxl.load_workbook("BANGUAT\\gra052.xlsx")
     concepto = ""
     tipo_valor = ""
     sheet = g52.active
@@ -270,7 +270,7 @@ def ExecuteETL():
 
     print('Parsing gra053.xlsx')
 
-    g53 = openpyxl.load_workbook("BANGUAT\gra053.xlsx")
+    g53 = openpyxl.load_workbook("BANGUAT\\gra053.xlsx")
     concepto = ""
     tipo_valor = ""
     sheet = g53.active
