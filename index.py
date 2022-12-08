@@ -278,11 +278,11 @@ class MainWindow(QMainWindow):
         import time
         time.sleep(1)
         driver.close()
-        try:
-            etl_bvnsa.ExecuteETL()
-        except Exception:
-            self.imprimir("Hubo un error en el proceso de ETL BVNSA")
-            traceback.print_exc()
+        #try:
+        #    etl_bvnsa.ExecuteETL()
+        #except Exception:
+        #    self.imprimir("Hubo un error en el proceso de ETL BVNSA")
+        #    traceback.print_exc()
 
     def todos(self):
         print("todos")

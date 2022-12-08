@@ -54,7 +54,7 @@ def monetario(archivo, offset = 0, remover_titulo = 0):
 
     print('Parsing', archivo + '.xlsx')
 
-    imm = openpyxl.load_workbook("BANGUAT\\" + archivo + ".xlsx")
+    imm = openpyxl.load_workbook("..\\BANGUAT\\" + archivo + ".xlsx")
     años = []
     sheet = imm.active
 
@@ -105,7 +105,7 @@ def ExecuteETL():
     
     print('Parsing Exportaciones e Importaciones.xlsx')
 
-    impExp = openpyxl.load_workbook("BANGUAT\\Exportaciones e Importaciones.xlsx")
+    impExp = openpyxl.load_workbook("..\\BANGUAT\\Exportaciones e Importaciones.xlsx")
     producto = ""
     tipo = ""
     año = impExp.sheetnames[0]
@@ -153,7 +153,7 @@ def ExecuteETL():
 
     print('Parsing gra051.xlsx')
 
-    g51 = openpyxl.load_workbook("BANGUAT\\gra051.xlsx")
+    g51 = openpyxl.load_workbook("..\\BANGUAT\\gra051.xlsx")
     concepto = ""
     tipo_valor = ""
     sheet = g51.active
@@ -216,7 +216,7 @@ def ExecuteETL():
 
     print('Parsing gra052.xlsx')
 
-    g52 = openpyxl.load_workbook("BANGUAT\\gra052.xlsx")
+    g52 = openpyxl.load_workbook("..\\BANGUAT\\gra052.xlsx")
     concepto = ""
     tipo_valor = ""
     sheet = g52.active
@@ -270,7 +270,7 @@ def ExecuteETL():
 
     print('Parsing gra053.xlsx')
 
-    g53 = openpyxl.load_workbook("BANGUAT\\gra053.xlsx")
+    g53 = openpyxl.load_workbook("..\\BANGUAT\\gra053.xlsx")
     concepto = ""
     tipo_valor = ""
     sheet = g53.active
@@ -357,9 +357,9 @@ def ExecuteETL():
             df.to_excel(file, index=False)
 
 
-    generateExcel(banguat_divisa, "BASES_DE_DATOS\BANGUAT_Divisa.xlsx", ['reporte_nombre', 'fecha', 'concepto', 'tipo_valor', 'dimensional'])
-    generateExcel(banguat_monetario, "BASES_DE_DATOS\BANGUAT_Monetario.xlsx", ['reporte_nombre', 'fecha', 'dimensional'])
-    generateExcel(banguat_exportaciones_importaciones, "BASES_DE_DATOS\\BANGUAT_Exportaciones_Importaciones.xlsx", ['reporte_nombre', 'fecha', 'tipo', 'producto', 'dimensional'])
+    generateExcel(banguat_divisa, '..\\BASES_DE_DATOS\\BANGUAT_Divisa.xlsx', ['reporte_nombre', 'fecha', 'concepto', 'tipo_valor', 'dimensional'])
+    generateExcel(banguat_monetario, '..\\BASES_DE_DATOS\\BANGUAT_Monetario.xlsx', ['reporte_nombre', 'fecha', 'dimensional'])
+    generateExcel(banguat_exportaciones_importaciones, "..\\BASES_DE_DATOS\\BANGUAT_Exportaciones_Importaciones.xlsx", ['reporte_nombre', 'fecha', 'tipo', 'producto', 'dimensional'])
 
     print('ETL for BANGUAT files completed!')
 

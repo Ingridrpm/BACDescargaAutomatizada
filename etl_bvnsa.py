@@ -93,7 +93,7 @@ def bolsa_valores_tabular(file):
 
     df.insert(0, 'fecha_reporte', fecha)
     
-    generateExcel(df, "BASES_DE_DATOS\\BVNSA_" + reporte_nombre + ".xlsx")
+    generateExcel(df, ".\\BASES_DE_DATOS\\BVNSA_" + reporte_nombre + ".xlsx")
 
 
 def bolsa_valores_tabular2(file):
@@ -102,7 +102,7 @@ def bolsa_valores_tabular2(file):
 
     print('Parsing', file + '.xlsx')
 
-    bv = openpyxl.load_workbook("BVNSA\\" + file + ".xlsx")
+    bv = openpyxl.load_workbook(".\\BVNSA\\" + file + ".xlsx")
     sheet = bv.active
     
     df = pd.DataFrame()
@@ -132,7 +132,7 @@ def bolsa_valores_tabular2(file):
 
     df.insert(0, 'fecha_reporte', fecha)
     
-    generateExcel(df, "BASES_DE_DATOS\\BVNSA_" + reporte_nombre + ".xlsx")
+    generateExcel(df, ".\\BASES_DE_DATOS\\BVNSA_" + reporte_nombre + ".xlsx")
 
 
 def ExecuteETL():
@@ -141,13 +141,13 @@ def ExecuteETL():
     print('*****Executing BVNSA ETL*****')
     print('=============================')
 
-    bolsa_valores_tabular('BVNSA\\CurvaNss.xlsx')
-    bolsa_valores_tabular('BVNSA\\CurvaRendimiento.xlsx')
-    bolsa_valores_tabular('BVNSA\\Informe_Reportos_Privados.xlsx')
-    bolsa_valores_tabular('BVNSA\\Informe_Reportos_Publicos.xlsx')
-    bolsa_valores_tabular('BVNSA\\Informe_Resumen_Reportos.xlsx')
-    bolsa_valores_tabular('BVNSA\\OperacionesSinedi.xlsx')
-    bolsa_valores_tabular2('BVNSA\\Informe Diario.xlsx')
+    bolsa_valores_tabular('.\\BVNSA\\CurvaNss.xlsx')
+    bolsa_valores_tabular('.\\BVNSA\\CurvaRendimiento.xlsx')
+    bolsa_valores_tabular('.\\BVNSA\\Informe_Reportos_Privados.xlsx')
+    bolsa_valores_tabular('.\\BVNSA\\Informe_Reportos_Publicos.xlsx')
+    bolsa_valores_tabular('.\\BVNSA\\Informe_Resumen_Reportos.xlsx')
+    bolsa_valores_tabular('.\\BVNSA\\OperacionesSinedi.xlsx')
+    bolsa_valores_tabular2('.\\BVNSA\\Informe Diario.xlsx')
 
     print('ETL for BVNSA files completed!')
 

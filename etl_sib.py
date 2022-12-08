@@ -75,19 +75,19 @@ def ExecuteETL():
     print('******Executing SIB ETL******')
     print('=============================')
 
-    convertToXslx('SIB\\Consulta_7.xls')
-    convertToXslx('SIB\\Consulta_18.xls')
-    convertToXslx('SIB\\Consulta_19.xls')
-    convertToXslx('SIB\\Consulta_20.xls')
-    convertToXslx('SIB\\Consulta_21.xls')
-    convertToXslx('SIB\\Consulta_26.xls')
-    convertToXslx('SIB\\Consulta_198.xls')
-    convertToXslx('SIB\\Consulta_200.xls')
-    convertToXslx('SIB\\Consulta_205.xls')
-    convertToXslx('SIB\\Consulta_210.xls')
-    convertToXslx('SIB\\Consulta_383.xls')
-    convertToXslx('SIB\\Consulta_384.xls')
-    convertToXslx('SIB\\Consulta_412.xls')
+    convertToXslx('..\\SIB\\Consulta_7.xls')
+    convertToXslx('..\\SIB\\Consulta_18.xls')
+    convertToXslx('..\\SIB\\Consulta_19.xls')
+    convertToXslx('..\\SIB\\Consulta_20.xls')
+    convertToXslx('..\\SIB\\Consulta_21.xls')
+    convertToXslx('..\\SIB\\Consulta_26.xls')
+    convertToXslx('..\\SIB\\Consulta_198.xls')
+    convertToXslx('..\\SIB\\Consulta_200.xls')
+    convertToXslx('..\\SIB\\Consulta_205.xls')
+    convertToXslx('..\\SIB\\Consulta_210.xls')
+    convertToXslx('..\\SIB\\Consulta_383.xls')
+    convertToXslx('..\\SIB\\Consulta_384.xls')
+    convertToXslx('..\\SIB\\Consulta_412.xls')
 
 
     reporte_nombre = ""
@@ -105,7 +105,7 @@ def ExecuteETL():
 
     print('Parsing Consulta_7.xlsx')
 
-    c7 = openpyxl.load_workbook("SIB\\Consulta_7.xlsx")
+    c7 = openpyxl.load_workbook("..\\SIB\\Consulta_7.xlsx")
     entidad = "Local"
     tipo_moneda = "Moneda nacional"
     instituciones_bancarias = []
@@ -154,7 +154,7 @@ def ExecuteETL():
 
     print('Parsing Consulta_18.xlsx')
 
-    c18 = openpyxl.load_workbook("SIB\\Consulta_18.xlsx")
+    c18 = openpyxl.load_workbook("..\\SIB\\\\Consulta_18.xlsx")
     entidad = "Local"
     caracteristicas = []
     dimensional = "Porcentaje"
@@ -208,7 +208,7 @@ def ExecuteETL():
 
     print('Parsing Consulta_19.xlsx')
 
-    c19 = openpyxl.load_workbook("SIB\\Consulta_19.xlsx")
+    c19 = openpyxl.load_workbook("..\\SIB\\\\Consulta_19.xlsx")
     entidad = "Local"
     caracteristicas = []
     dimensional = "Porcentaje"
@@ -262,7 +262,7 @@ def ExecuteETL():
 
     print('Parsing Consulta_20.xlsx')
 
-    c20 = openpyxl.load_workbook("SIB\\Consulta_20.xlsx")
+    c20 = openpyxl.load_workbook("..\\SIB\\\\Consulta_20.xlsx")
     entidad = "Local"
     caracteristicas = []
     dimensional = "Porcentaje"
@@ -315,7 +315,7 @@ def ExecuteETL():
 
     print('Parsing Consulta_26.xlsx')
 
-    c26 = openpyxl.load_workbook("SIB\\Consulta_26.xlsx")
+    c26 = openpyxl.load_workbook("..\\SIB\\\\Consulta_26.xlsx")
     entidad = "Local"
     caracteristicas = []
     dimensional = "Quetzales"
@@ -376,7 +376,7 @@ def ExecuteETL():
 
     print('Parsing Consulta_198.xlsx')
 
-    c198 = openpyxl.load_workbook("SIB\\Consulta_198.xlsx")
+    c198 = openpyxl.load_workbook("..\\SIB\\\\Consulta_198.xlsx")
     entidad = "Off-Shore"
     tipo_moneda = "Moneda nacional"
     instituciones_bancarias = []
@@ -426,7 +426,7 @@ def ExecuteETL():
 
     print('Parsing Consulta_200.xlsx')
 
-    c200 = openpyxl.load_workbook("SIB\\Consulta_200.xlsx")
+    c200 = openpyxl.load_workbook("..\\SIB\\\\Consulta_200.xlsx")
     entidad = "Off-shore"
     caracteristicas = []
     dimensional = "Porcentaje"
@@ -470,7 +470,7 @@ def ExecuteETL():
 
     print('Parsing Consulta_205.xlsx')
 
-    c205 = openpyxl.load_workbook("SIB\\Consulta_205.xlsx")
+    c205 = openpyxl.load_workbook("..\\SIB\\\\Consulta_205.xlsx")
     entidad = "Off-shore"
     caracteristicas = []
     dimensional = "Quetzales"
@@ -529,7 +529,7 @@ def ExecuteETL():
 
     print('Parsing Consulta_210.xlsx')
 
-    c210 = openpyxl.load_workbook("SIB\\Consulta_210.xlsx")
+    c210 = openpyxl.load_workbook("..\\SIB\\\\Consulta_210.xlsx")
     entidad = "Empresa especializada"
     tipo_moneda = "Moneda nacional"
     instituciones_bancarias = []
@@ -579,7 +579,7 @@ def ExecuteETL():
 
     print('Parsing Consulta_383.xlsx')
 
-    c383 = openpyxl.load_workbook("SIB\\Consulta_383.xlsx")
+    c383 = openpyxl.load_workbook("..\\SIB\\\\Consulta_383.xlsx")
     entidad = "Local"
     tipo_moneda = "Moneda nacional"
     instituciones_bancarias = []
@@ -629,7 +629,7 @@ def ExecuteETL():
 
     print('Parsing Consulta_412.xlsx')
 
-    c412 = openpyxl.load_workbook("SIB\\Consulta_412.xlsx")
+    c412 = openpyxl.load_workbook("..\\SIB\\\\Consulta_412.xlsx")
     entidad = "Local"
     caracteristicas = []
     tipo_moneda = "Moneda nacional"
@@ -676,7 +676,7 @@ def ExecuteETL():
 
     #Consulta_384 - Indicadores financieros
 
-    c384 = openpyxl.load_workbook("SIB\\Consulta_384.xlsx")
+    c384 = openpyxl.load_workbook("..\\SIB\\\\Consulta_384.xlsx")
     entidad = "Local"
     tipo_moneda = "Moneda nacional"
     dimensional = "Porcentaje"
@@ -725,7 +725,7 @@ def ExecuteETL():
 
     #Consulta_21 - Tasas de interés aplicadas
 
-    c21 = openpyxl.load_workbook("SIB\\Consulta_21.xlsx")
+    c21 = openpyxl.load_workbook("..\\SIB\\\\Consulta_21.xlsx")
     entidad = "Local"
     actividades_economicas = []
     dimensional = "Porcentaje"
@@ -816,7 +816,7 @@ def ExecuteETL():
             df.to_excel(file, index=False)
 
 
-    generateExcel(sib_informacion_bancaria, "BASES_DE_DATOS\SIB_Información_Bancaria.xlsx", ["reporte_nombre", "entidad", "fecha", "tipo_moneda", "institucion_nombre", "caracteristica", "dimensional"])
-    generateExcel(sib_actividad_economica, "BASES_DE_DATOS\SIB_Actividad_Económica.xlsx", ["reporte_nombre", "fecha", "tipo_moneda", "actividad_economica", "caracteristica", "dimensional"])
+    generateExcel(sib_actividad_economica, "..\\BASES_DE_DATOS\\SIB_Actividad_Económica.xlsx", ["reporte_nombre", "fecha", "tipo_moneda", "actividad_economica", "caracteristica", "dimensional"])
+    generateExcel(sib_informacion_bancaria, "..\\BASES_DE_DATOS\\SIB_Información_Bancaria.xlsx", ["reporte_nombre", "entidad", "fecha", "tipo_moneda", "institucion_nombre", "caracteristica", "dimensional"])
 
     print('ETL for SIB files completed!')
